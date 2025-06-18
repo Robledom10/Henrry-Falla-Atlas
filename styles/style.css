@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Arial';
+  line-height: 1.6;
+  background: #fff;
+}
+
+.hero {
+  background: url('../assets/images/banner-bk.jpg') left center;
+  color: #fff;
+  padding: 90px 10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    height: 5rem;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.hero .text {
+   text-align: justify;
+   color: #fff;
+   max-width: 900px;
+   margin-left: 330px;
+}
+
+.text h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 40px;
+  background: #00FFAD;
+  color: #192440;
+  padding: 10px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn.dark {
+  background: #111;
+  color: #fff;
+}
+.btn.outline {
+  background: transparent;
+  border: 2px solid #111;
+  color: #111;
+}
+.features {
+  padding: 40px 20px;
+}
+
+.features h2 {
+    text-align: center;
+    font-size: 2.6rem;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.card {
+  background: #fff;
+  border-radius: 10px;
+  max-width: 400px;
+  text-align: center;
+  flex: 1;
+}
+.card.highlight {
+  background: #0e1833;
+  color: #fff;
+}
+.price {
+  font-size: 32px;
+  margin: 10px 0;
+}
+ul {
+  list-style: none;
+  margin: 15px 0;
+}
+footer.contact {
+  background: #0e1833;
+  color: white;
+  padding: 40px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+  max-width: 400px;
+}
+footer .form input,
+footer .form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+footer .btn {
+  max-width: 200px;
+  margin-top: 10px;
+}
