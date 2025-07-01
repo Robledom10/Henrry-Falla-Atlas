@@ -50,7 +50,7 @@ body {
 .btn {
   display: inline-block;
   margin-top: 40px;
-  background: #00FFAD;
+  background: #00ffad;
   color: #192440;
   padding: 10px 25px;
   border-radius: 30px;
@@ -107,7 +107,7 @@ ul {
 
 /* ================= SECCIÓN PREVIEW CON FONDO DIAGONAL ================= */
 .preview {
-  background: linear-gradient(-13deg, #00FFAD 45%, white 45%);
+  background: linear-gradient(-13deg, #00ffad 45%, white 45%);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -118,7 +118,7 @@ ul {
 .preview .text {
   flex: 1;
   max-width: 500px;
-  color: #292B2C;
+  color: #292b2c;
 }
 
 .preview .image {
@@ -133,7 +133,7 @@ ul {
 
 /* ================= SECCIÓN VERDE DE CONFIANZA ================= */
 .reliable {
-  background-color: #00FFAD;
+  background-color: #00ffad;
   padding: 100px 60px;
   display: flex;
   justify-content: center;
@@ -217,6 +217,10 @@ ul {
   margin-bottom: 20px;
 }
 
+.card .price span {
+  font-size: 0.9rem;
+}
+
 .card ul {
   list-style: none;
   padding: 0;
@@ -245,7 +249,7 @@ ul {
 
 /* Botón destacado en tarjeta destacada */
 .card.highlight .btn {
-  background: #00FFAD;
+  background: #00ffad;
   color: #192440;
 }
 
@@ -313,14 +317,16 @@ ul {
   gap: 10px;
 }
 
-.field label, .form label {
-  color: #00FFAD;
+.field label,
+.form label {
+  color: #00ffad;
   font-size: 0.9rem;
 }
 
-.field input, .form textarea {
+.field input,
+.form textarea {
   padding: 12px 16px;
-  border: 2px solid #00FFAD;
+  border: 2px solid #00ffad;
   border-radius: 6px;
   background: transparent;
   color: white;
@@ -330,7 +336,7 @@ ul {
 /* Botón del formulario */
 .btn {
   padding: 14px;
-  background-color: #00FFAD;
+  background-color: #00ffad;
   border: none;
   border-radius: 30px;
   color: #192440;
@@ -352,7 +358,7 @@ ul {
 .footer .copyright p {
   margin: 0;
   font-size: 0.95rem;
-  color: #F1FFF3;
+  color: #f1fff3;
 }
 
 .footer .redes {
@@ -364,7 +370,7 @@ ul {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: #192440;
   width: 40px;
   height: 40px;
@@ -373,5 +379,3 @@ ul {
   font-size: 1rem;
   transition: 0.3s ease;
 }
-
-
