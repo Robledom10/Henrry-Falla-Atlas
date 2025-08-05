@@ -489,4 +489,33 @@ ul {
   .patrocineos img {
     width: 60px;
   }
+
+  .footer {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero .text h1 {
+    font-size:1.2rem ;
+    padding-left: 50px;
+  }
+
+  .hero .text p {
+    font-size: 0.9rem;
+    padding-left: 50px;
+  }
+
+  .hero .text {
+    margin-right: 0px;
+  }
+
+  .hero .btn {
+    margin-left: 0px;
+  }
+
+  .contact .info, .form {
+    min-width: 250px;
+  }
 }
